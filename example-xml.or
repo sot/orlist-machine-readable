@@ -1,0 +1,829 @@
+HDR,HDR_ID=JUL0323_01
+
+BEGIN_COMMENT,ID=49999
+This is the OR list for the week of JUL 03, 2023.
+SOT Mission Planner: Iris Wang
+FOT Mission Planner: Julia Zachary
+Please email all notes and comments to Iris Wang ( iris.wang@cfa.harvard.edu ).
+Version list:
+_00 : as extracted using MP software
+_01 : LTS OR
+**************************************************************
+For this week, please note:
+Priority Definitions
+---------------------------------
+- 4 for constrained observations that absolutely must be done in this load
+- 5 for time constrained or otherwise urgent targets that should be done in this load if at all possible
+- 6 for objects from the LTS without time constraints
+Comments
+---------------------------------
+Low Visibility targets:
+
+ObsID	Day of year for low vis
+------------------------------
+27012 	184m
+27106 	184m
+
+
+Pitch/Time Summary
+---------------------------------
+Total time in OR list : 325.00 ks
+Total time at hot pitch (72-125) : 167.00 ks
+Percent of total : 51.385%
+Total time at neutral pitch (47-72,125-147) : 3.00 ks
+Percent of total : 0.923%
+Total time at cold pitch (147-156) : 50.00 ks
+Percent of total : 15.385%
+Total time at pline pitch (156-178) : 105.00 ks
+Percent of total : 32.308%
+Total time at forbidden pitch (0-47,178-180) : 0.00 ks
+Percent of total : 0.000%
+
+
+Total time at priority 4, 5 or 6 : 325.00 ks
+Total time at hot pitch (72-125) : 167.00 ks
+Percent of total : 51.385%
+
+Note: Pitch totals are calculated based on a midweek roll.
+
+
+
+
+			 Target Summary: JUL0323
+
+			   pitch angle/roll
+			     (day of year)
+    obsid  time  P  U      184         190         target    Observer RC OC FP SF PU FT
+    -----  ----  -  -  ----------  ----------  ----------  ---------- -- -- -- -- -- --
+    25109     3  4  N     63/94.4     67/98.5     phi Per        Naze  2  0  N  N  N -109.0
+  * 27012    30  4  N     164/9.9   164/348.4  RXJ 1856.5    Marshall  5  1  N  N  N -109.0
+  * 27106    30  4  N     164/9.9   164/348.4  RXJ 1856.5    Marshall  5  1  N  N  N -109.0
+ ** 25728    44  5  N   107/104.7    111/99.9  QSO J0041-   Cantalupo  4  0  N  Y  N -109.0
+ ** 26488    20  5  N   114/113.0   120/113.1  trappist-1        Wolk  -  -  -  N  N  -
+ ** 26489    10  5  N   114/113.0   120/113.1  trappist-1        Wolk  -  -  -  N  N  -
+    26579    10  5  N   151/167.3   152/179.1      SS 433    Marshall  -  -  -  N  N  -
+  * 26656    45  5  N   169/200.5   166/224.3  SNR G018.9  Holland-As  4  0  N  N  Y -109.0
+ ** 26714    33  5  N    96/244.4    91/246.5  SDSS J1339      Morgan  4  2  N  Y  N -109.0
+ ** 26904    20  5  N    88/191.7    88/197.5  7C 1754+67       Meyer  2  0  N  Y  N -111.0
+ ** 27013    30  5  Y    85/247.1    79/247.6       3C273    Marshall  6  2  N  Y  N -109.0
+ ** 27491    10  5  N    75/108.1    80/111.4         m31       Irwin  -  -  -  N  N  -
+    26499    40  6  N   151/297.1   146/290.8    NGC 6242      Getman  4  0  N  N  N -112.0
+
+*** = forbidden zone (0-47,178-180)
+ ** = hot pitch (72-125)
+  * = pline restrictions (156-178)
+
+
+Time Summary
+---------------------------------
+
+Priority	# of Obs	Time (seconds)
+4		3		    63000.00
+5		9		   222000.00
+6		1		    40000.00
+
+HRC		4		    50000.00
+ACIS		9		   275000.00
+
+TOTAL		13		   325000.00
+
+
+
+Targets Not Approved for Flight
+---------------------------------
+
+
+Approval Status
+---------------------------------
+
+201454 25109              phi Per         Naze ACIS-S NONE TE_00D50  swolk  11/09/21
+704419 25728       QSO J0041-4936    Cantalupo ACIS-I NONE TE_006E6  malgosia  10/27/21
+100221 26488           trappist-1         Wolk  HRC-S NONE  DEFAULT  *** not approved for flight ***
+100222 26489           trappist-1         Wolk  HRC-S NONE  DEFAULT  *** not approved for flight ***
+201561 26499             NGC 6242       Getman ACIS-I NONE TE_006E6  swolk  11/07/22
+402437 26579               SS 433     Marshall  HRC-I NONE OBS20743  *** not approved for flight ***
+503416 26656      SNR G018.9-01.1 Holland-Ashf ACIS-I NONE TE_006E6  jeanconn  12/06/22
+704635 26714      SDSS J1339+1310       Morgan ACIS-S NONE TE_0065A  kashyap  12/22/22
+704825 26904         7C 1754+6737        Meyer ACIS-S NONE TE_00D50  malgosia  10/27/22
+590678 27012      RXJ 1856.5-3754     Marshall ACIS-S LETG TE_00CD8  *** not approved for flight ***
+790381 27013                3C273     Marshall ACIS-S HETG TE_00920  *** not approved for flight ***
+590678 27106      RXJ 1856.5-3754     Marshall ACIS-S LETG TE_00CD8  *** not approved for flight ***
+601541 27491                  m31        Irwin  HRC-I NONE OBS20743  kashyap  11/28/22
+
+
+
+
+Obsids with poor star catalogs
+---------------------------------
+
+    obsid   time                target  P  SF
+    -----   ----  --------------------  -  --
+    26904     20          7C 1754+6737  5   Y
+    27013     30                 3C273  5   Y
+    25728     44        QSO J0041-4936  5   Y
+    26714     33       SDSS J1339+1310  5   Y
+
+    ? = ACA data missing or old (recent ingests, obscat edits)
+    * = split of a target in this bin
+
+
+Obsid 26904, 7C 1754+6737 (20.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   88.87  192.06   -5.90  176.00   -4.70  189.00   -5.50
+    2023:185    Jul04   88.90  193.02   -6.00  176.00   -4.70  189.00   -5.50
+    2023:186    Jul05   88.87  193.99   -6.20  176.00   -4.70  189.00   -5.50
+    2023:187    Jul06   88.87  194.92   -6.20  177.00   -4.80  189.00   -5.50
+    2023:188    Jul07   88.88  195.88   -6.20  178.00   -5.10  202.00   -5.50
+    2023:189    Jul08   88.84  196.85   -6.20  214.00   -5.20  202.00   -5.50
+    2023:190    Jul09   88.87  197.78   -5.70  214.00   -5.20  202.00   -5.50
+
+Obsid 27013, 3C273 (30.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   85.13  247.10   -6.20  248.00   -6.00     NaN     NaN
+    2023:185    Jul04   84.17  247.22   -6.20  248.00   -6.00     NaN     NaN
+    2023:186    Jul05   83.20  247.28   -6.20  248.00   -6.00     NaN     NaN
+    2023:187    Jul06   82.28  247.36   -6.20  248.00   -6.00     NaN     NaN
+    2023:188    Jul07   81.31  247.46   -6.20  248.00   -6.00     NaN     NaN
+    2023:189    Jul08   80.35  247.50   -6.00  248.00   -6.00     NaN     NaN
+    2023:190    Jul09   79.43  247.62   -6.00  261.00   -5.60     NaN     NaN
+
+Obsid 25728, QSO J0041-4936 (44.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03  108.13  104.43  -12.00   97.00  -10.30     NaN     NaN
+    2023:185    Jul04  108.70  103.61  -12.00   85.00  -10.10     NaN     NaN
+    2023:186    Jul05  109.30  102.82  -11.50   85.00  -10.10     NaN     NaN
+    2023:187    Jul06  109.87  102.03  -11.30   85.00  -10.10     NaN     NaN
+    2023:188    Jul07  110.45  101.21  -11.20   85.00  -10.10     NaN     NaN
+    2023:189    Jul08  111.06  100.41  -11.10   85.00  -10.10     NaN     NaN
+    2023:190    Jul09  111.59   99.59  -11.10   85.00  -10.10     NaN     NaN
+
+Obsid 26714, SDSS J1339+1310 (33.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   96.53  244.50   -6.00  245.00   -6.00     NaN     NaN
+    2023:185    Jul04   95.65  244.90   -6.00  245.00   -6.00     NaN     NaN
+    2023:186    Jul05   94.75  245.24   -6.00  245.00   -6.00     NaN     NaN
+    2023:187    Jul06   93.89  245.59   -6.00  246.00   -6.00     NaN     NaN
+    2023:188    Jul07   93.00  245.97   -6.00  246.00   -6.00     NaN     NaN
+    2023:189    Jul08   92.09  246.29   -6.00  246.00   -6.00     NaN     NaN
+    2023:190    Jul09   91.23  246.67   -6.00  247.00   -6.00     NaN     NaN
+
+nom_t and best_t are predicted upper bounds on allowed
+ACA CCD temperature at nominal and best off-nominal rolls
+pass_t and pass_r give the minimum off-nominal roll
+that gives an acceptable ACA CCD temperature
+
+
+Obsids with poor star catalogs using creep up and away
+---------------------------------------------------------
+
+    obsid   time                target  P  SF
+    -----   ----  --------------------  -  --
+    26904     20          7C 1754+6737  5   Y
+    27013     30                 3C273  5   Y
+    25728     44        QSO J0041-4936  5   Y
+    26714     33       SDSS J1339+1310  5   Y
+
+    ? = ACA data missing or old (recent ingests, obscat edits)
+    * = split of a target in this bin
+
+
+Obsid 26904, 7C 1754+6737 (20.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   88.87  192.06   -5.90  177.00   -4.10  189.00   -4.70
+    2023:185    Jul04   88.90  193.02   -6.00  177.00   -4.10  189.00   -4.70
+    2023:186    Jul05   88.87  193.99   -6.20  177.00   -4.10  189.00   -4.70
+    2023:187    Jul06   88.87  194.92   -6.20  177.00   -4.10  199.00   -5.40
+    2023:188    Jul07   88.88  195.88   -6.20  214.00   -4.40  199.00   -5.40
+    2023:189    Jul08   88.84  196.85   -6.20  214.00   -4.40  199.00   -5.40
+    2023:190    Jul09   88.87  197.78   -5.70  214.00   -4.40  199.00   -5.40
+
+Obsid 27013, 3C273 (30.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   85.13  247.10   -6.00  247.00   -6.00     NaN     NaN
+    2023:185    Jul04   84.17  247.22   -6.00  247.00   -6.00     NaN     NaN
+    2023:186    Jul05   83.20  247.28   -6.00  247.00   -6.00     NaN     NaN
+    2023:187    Jul06   82.28  247.36   -6.00  247.00   -6.00     NaN     NaN
+    2023:188    Jul07   81.31  247.46   -6.00  247.00   -6.00     NaN     NaN
+    2023:189    Jul08   80.35  247.50   -6.00  248.00   -6.00     NaN     NaN
+    2023:190    Jul09   79.43  247.62   -6.00  261.00   -5.40  261.00   -5.40
+
+Obsid 25728, QSO J0041-4936 (44.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03  108.13  104.43  -10.80   97.00   -9.90     NaN     NaN
+    2023:185    Jul04  108.70  103.61  -10.80   97.00   -9.90     NaN     NaN
+    2023:186    Jul05  109.30  102.82  -10.70   97.00   -9.90     NaN     NaN
+    2023:187    Jul06  109.87  102.03  -10.70   97.00   -9.90     NaN     NaN
+    2023:188    Jul07  110.45  101.21  -10.80   97.00   -9.90     NaN     NaN
+    2023:189    Jul08  111.06  100.41  -10.80   97.00   -9.90     NaN     NaN
+    2023:190    Jul09  111.59   99.59  -10.80   97.00   -9.90     NaN     NaN
+
+Obsid 26714, SDSS J1339+1310 (33.00 ks)
+
+         day  caldate   pitch   nom_r   nom_t  best_r  best_t  pass_r  pass_t
+    --------  -------  ------  ------  ------  ------  ------  ------  ------
+    2023:184    Jul03   96.53  244.50   -6.00  245.00   -6.00     NaN     NaN
+    2023:185    Jul04   95.65  244.90   -6.00  245.00   -6.00     NaN     NaN
+    2023:186    Jul05   94.75  245.24   -6.00  245.00   -6.00     NaN     NaN
+    2023:187    Jul06   93.89  245.59   -6.00  246.00   -6.00     NaN     NaN
+    2023:188    Jul07   93.00  245.97   -6.00  246.00   -6.00     NaN     NaN
+    2023:189    Jul08   92.09  246.29   -6.00  246.00   -6.00     NaN     NaN
+    2023:190    Jul09   91.23  246.67   -6.00  247.00   -6.00     NaN     NaN
+
+nom_t and best_t are predicted upper bounds on allowed
+ACA CCD temperature at nominal and best off-nominal rolls
+pass_t and pass_r give the minimum off-nominal roll
+that gives an acceptable ACA CCD temperature
+
+
+END_COMMENT
+
+
+
+BEGIN_COMMENT,ID=49999
+ObsIDs with hand edits to the zero-offset aimpoint table
+--------------------------------------------------------
+
+END_COMMENT
+
+
+BEGIN_COMMENT,ID=49999
+This table provides the required target aimpoints for each ObsID.
+These values specify the observation target aimpoint for
+TARGET_OFFSET=(0,0).
+
+
+  NOTE: This comment is automatically regenerated when using the
+        sot_mp_or_aimpoints.pl application.
+
+
+***ZERO-OFFSET AIMPOINTS START
+obsid  cycle  date        detector  chipx   chipy   chip_id
+25109  23     2023-07-03  ACIS-S    210.0   520.0   7
+25728  23     2023-07-03  ACIS-I    970.0   975.0   3
+26488  24     2023-07-03  HRC-S     2195.0  8915.0  2
+26489  24     2023-07-03  HRC-S     2195.0  8915.0  2
+26499  24     2023-07-03  ACIS-I    953.74  958.74  3
+26579  24     2023-07-03  HRC-I     7590.0  7745.0  0
+26656  24     2023-07-03  ACIS-I    953.74  958.74  3
+26714  24     2023-07-03  ACIS-S    193.74  520.0   7
+26904  24     2023-07-03  ACIS-S    193.74  520.0   7
+27012  24     2023-07-03  ACIS-S    193.74  520.0   7
+27013  24     2023-07-03  ACIS-S    193.74  520.0   7
+27106  24     2023-07-03  ACIS-S    193.74  520.0   7
+27491  22     2023-07-03  HRC-I     7590.0  7745.0  0
+***ZERO-OFFSET AIMPOINTS END
+
+
+END_COMMENT
+
+
+
+BEGIN_COMMENT,ID=49999
+
+***SIMODE TABLE START
+			 	 SIMODE Table: JUL0323
+
+Obsid  Req Opt  Current    Original   Drop:  1      2       3       4       5
+----------------------------------------------------------------------------------
+
+25109   2   0   TE_00D50   TE_00D50
+25728   4   0   TE_006E6   TE_006E6
+26499   4   0   TE_006E6   TE_006E6
+26656   4   0   TE_006E6   TE_006E6
+26714   4   2   TE_0065A   TE_0065A   TE_00A5A TE_0057A
+26904   2   0   TE_00D50   TE_00D50
+27012   5   1   TE_00CD8   TE_00CD8   TE_00CE6
+27013   6   2   TE_00920   TE_00920   TE_0099C TE_00B92
+27106   5   1   TE_00CD8   TE_00CD8   TE_00CE6
+26488   X   X      HRC
+26489   X   X      HRC
+26579   X   X      HRC
+27491   X   X      HRC
+
+***SIMODE TABLE END
+END_COMMENT
+
+
+BEGIN_COMMENT,ID=49999
+***OR QUICK LOOK START
+   NOTE: This comment is automatically regenerated when using the
+         mp_orf_gui or the mp_orf_file applications.
+
+                                                               Req.  Opt.  Drop
+SeqNbr    ObsId        Target Name              Observer       Chip  Chip  Chip
+----------------------------------------------------------------------------------
+590678    27012        RXJ 1856.5-3754          Marshall          5     1     0
+590678    27106        RXJ 1856.5-3754          Marshall          5     1     0
+201454    25109        phi Per                  Naze              2     0     0
+100221    26488        trappist-1               Wolk              4     0     0
+100222    26489        trappist-1               Wolk              4     0     0
+402437    26579        SS 433                   Marshall          4     0     0
+503416    26656        SNR G018.9-01.1          Holland-Ashford   4     0     0
+704825    26904        7C 1754+6737             Meyer             2     0     0
+790381    27013        3C273                    Marshall          6     2     0
+601541    27491        m31                      Irwin             5     1     0
+704419    25728        QSO J0041-4936           Cantalupo         4     0     0
+704635    26714        SDSS J1339+1310          Morgan            4     2     0
+201561    26499        NGC 6242                 Getman            4     0     0
+***OR QUICK LOOK END
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+Priority 4 targets.
+These are constrained observations that must be scheduled in this load.
+END_COMMENT
+
+
+BEGIN_COMMENT, ID=25109
+<cycle_number>23</cycle_number>
+<sequence_number>201454</sequence_number>
+<si_modes>TE_00D50, NULL, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<phase_window>
+   #Start,                 End
+    2023:185:15:55:59.750, 2023:190:17:33:48.730
+</phase_window>
+<freeform_constraint>
+Remarks:
+Three observations are requested: conjunction with Be star in front
+(phi=0.25), conjunction with companion in front (phi=0.75) and quadrature
+(either phi=0 or phi=0.5)
+</freeform_constraint>
+END_COMMENT
+OBS,
+ ID=25109, TARGET=(25.915167,50.688731,{phi Per}), DURATION=(3000.000000),
+ PRIORITY=4, SI=ACIS-S, GRATING=NONE, SI_MODE=TE_00D50, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ PHASE=(126:16:45:24.480,2016:116:05:02:41,0.7400,0.0100,0.7600,0.0100)
+
+
+BEGIN_COMMENT, ID=27012
+<cycle_number>24</cycle_number>
+<sequence_number>590678</sequence_number>
+<si_modes>TE_00CD8, TE_00CE6, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<freeform_constraint>
+Window Constraint requirements exist for observation.
+  WINDOW=(2023:182:00:00:00,2023:212:00:00:00)
+</freeform_constraint>
+<split_duration>14</split_duration>
+END_COMMENT
+OBS,
+ ID=27012, TARGET=(284.147083,-37.909611,{RXJ 1856.5-3754}),
+ DURATION=(30000.000000), PRIORITY=4, SI=ACIS-S, GRATING=LETG, SI_MODE=TE_00CD8,
+ ACA_MODE=DEFAULT, TARGET_OFFSET=(0.023333,0.000000), SIM_OFFSET=(0),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.002222,0.360000,0.000000),
+ WINDOW=(2023:182:00:00:00,2023:212:00:00:00)
+
+
+BEGIN_COMMENT, ID=27106
+<cycle_number>24</cycle_number>
+<sequence_number>590678</sequence_number>
+<si_modes>TE_00CD8, TE_00CE6, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<relative_mon_window>27012, 000:00:00:00.000, 014:00:00:00.000</relative_mon_window>
+<freeform_constraint>
+Window Constraint requirements exist for observation.
+  WINDOW=(2023:182:00:00:00,2023:212:00:00:00)
+</freeform_constraint>
+<split_duration>14</split_duration>
+END_COMMENT
+OBS,
+ ID=27106, TARGET=(284.147083,-37.909611,{RXJ 1856.5-3754}),
+ DURATION=(30000.000000), PRIORITY=4, SI=ACIS-S, GRATING=LETG, SI_MODE=TE_00CD8,
+ ACA_MODE=DEFAULT, TARGET_OFFSET=(0.023333,0.000000), SIM_OFFSET=(0),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.002222,0.360000,0.000000),
+ WINDOW=(2023:182:00:00:00,2023:212:00:00:00),
+ PRECEDING=(27012,000:00:00:00.000,014:00:00:00.000)
+
+
+BEGIN_COMMENT,ID=49999
+Priority 5 targets.
+These are coordinated or in other ways constrained or urgent observations
+and should be scheduled this week if at all possible.
+END_COMMENT
+
+
+BEGIN_COMMENT, ID=26488
+<cycle_number>24</cycle_number>
+<sequence_number>100221</sequence_number>
+<obs_group>26488, 26489</obs_group>
+<obs_group_duration>2.7</obs_group_duration>
+<freeform_constraint>
+Remarks:
+We Would like this observation adjacent with the other observation of the same
+target.
+i.e. observe 1.5 ks on this thick filter for every 1 ks on the think filter
+Consecutively. This requires a small repointing and a change of Obsid.
+</freeform_constraint>
+END_COMMENT
+OBS,
+ ID=26488, TARGET=(346.622375,-5.041397,{trappist-1}), DURATION=(20000.000000),
+ PRIORITY=5, SI=HRC-S, GRATING=NONE, SI_MODE=DEFAULT, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000), SIM_OFFSET=( ,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000)
+
+
+BEGIN_COMMENT, ID=26489
+<cycle_number>24</cycle_number>
+<sequence_number>100222</sequence_number>
+<obs_group>26488, 26489</obs_group>
+<obs_group_duration>2.7</obs_group_duration>
+<relative_mon_window>26488, 000:00:00:00.000, 002:16:48:00.000</relative_mon_window>
+<freeform_constraint>
+Remarks:
+Would like this observations with the other observation of the same target,
+dither pattern should be as small as acceptable to avoid the thick filter.
+</freeform_constraint>
+END_COMMENT
+OBS,
+ ID=26489, TARGET=(346.622375,-5.041397,{trappist-1}), DURATION=(10000.000000),
+ PRIORITY=5, SI=HRC-S, GRATING=NONE, SI_MODE=DEFAULT, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.116667,0.000000), SIM_OFFSET=( ,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ PRECEDING=(26488,000:00:00:00.000,002:16:48:00.000)
+
+
+BEGIN_COMMENT, ID=26579
+<cycle_number>24</cycle_number>
+<sequence_number>402437</sequence_number>
+<relative_mon_window>26578, 004:00:00:00.000, 010:00:00:00.000</relative_mon_window>
+<freeform_constraint>
+NOTE: The PRECEDING=(26578,004:00:00:00.000,010:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=26578
+in this OR list.
+Remarks:
+Swift observations should be carried out every 3 +/- 1 days at 1 ks each
+starting at least 80 days before the first of the HRC observations and
+extending throughout the Chandra campaign.
+</freeform_constraint>
+<coordination_window>NO COORDINATION WINDOW FOUND!!</coordination_window>
+END_COMMENT
+OBS,
+ ID=26579, TARGET=(287.956500,4.982728,{SS 433}), DURATION=(10000.000000),
+ PRIORITY=5, SI=HRC-I, GRATING=NONE, SI_MODE=OBS20743, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000)
+
+
+BEGIN_COMMENT, ID=26656
+<cycle_number>24</cycle_number>
+<sequence_number>503416</sequence_number>
+<si_modes>TE_006E6, NULL, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<freeform_constraint>
+Remarks:
+The calibration point sources must be detected in all observations in order to
+provide useful astrometric correction. If split, each observation must be >20
+ks in order to detect a sufficient number of counts per point source. The final
+pointing and offsets will be updated according to a table supplied to mission
+planning. The dither has been reduced to the 8"x8" pattern to keep the
+calibration point sources on ACIS I CCDs while providing more margin for
+absolute pointing error.
+</freeform_constraint>
+<pointing>
+   #roll_start, roll_stop, y_target_offset, z_target_offset, RA, Dec, z_sim_offset
+      0.0, 20.0, 0.008333, 0.0, 277.292632, -12.875559, 0.0
+     20.0, 42.0, 0.0, -0.016667, 277.279615, -12.857489, 0.0
+     42.0, 54.0, 0.0, -0.016667, 277.301658, -12.883102, 0.0
+     54.0, 68.0, 0.016667, 0.0, 277.320919, -12.868329, 0.0
+     68.0, 74.0, -0.008333, -0.016667, 277.294875, -12.860011, 0.0
+     74.0, 91.0, 0.0, -0.008333, 277.312138, -12.854388, 0.0
+     91.0, 100.0, 0.0, -0.008333, 277.287559, -12.852952, 0.0
+    100.0, 145.0, -0.008333, -0.008333, 277.285126, -12.858733, 0.0
+    145.0, 157.0, 0.0, 0.033333, 277.262435, -12.864634, 0.0
+    157.0, 163.0, 0.0, 0.016667, 277.296494, -12.867763, 0.0
+    163.0, 183.0, 0.0, 0.016667, 277.276561, -12.859943, 0.0
+    183.0, 225.0, 0.0, 0.0, 277.296473, -12.851344, 0.0
+    225.0, 244.0, 0.008333, 0.0, 277.273239, -12.851585, 0.0
+    244.0, 248.0, 0.008333, 0.0, 277.265233, -12.853531, 0.0
+    248.0, 251.0, 0.016667, -0.003333, 277.275548, -12.867591, 0.0
+    251.0, 275.0, 0.0, 0.0, 277.276141, -12.870209, 0.0
+    275.0, 290.0, 0.0, -0.011667, 277.295304, -12.876371, 0.0
+    290.0, 320.0, 0.011667, -0.011667, 277.279032, -12.851621, 0.0
+    320.0, 335.0, 0.0, 0.0, 277.323648, -12.869741, 0.0
+    335.0, 354.0, 0.0, 0.016667, 277.303482, -12.862591, 0.0
+    354.0, 360.0, 0.0, 0.003333, 277.304575, -12.870448, 0.0
+</pointing>
+<split_duration>60</split_duration>
+END_COMMENT
+OBS,
+ ID=26656, TARGET=(277.262500,-12.886667,{SNR G018.9-01.1}),
+ DURATION=(45000.000000), PRIORITY=5, SI=ACIS-I, GRATING=NONE, SI_MODE=TE_006E6,
+ ACA_MODE=DEFAULT, TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000)
+
+
+BEGIN_COMMENT, ID=27491
+<cycle_number>23</cycle_number>
+<sequence_number>601541</sequence_number>
+<relative_mon_window>23871, 240:00:00:00.000, 810:00:00:00.000</relative_mon_window>
+<absolute_mon_window>23871, 2022:169:06:28:06.976, 2024:009:06:28:06.976</absolute_mon_window>
+<freeform_constraint>
+NOTE: The PRECEDING=(23871,240:00:00:00.000,810:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=23871
+in this OR list.
+Remarks:
+Multi-cycle  - 50 ksec per cycle
+</freeform_constraint>
+END_COMMENT
+OBS,
+ ID=27491, TARGET=(10.684708,41.268750,{m31}), DURATION=(10000.000000),
+ PRIORITY=5, SI=HRC-I, GRATING=NONE, SI_MODE=OBS20743, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000)
+
+
+BEGIN_COMMENT, ID=25728
+<cycle_number>23</cycle_number>
+<sequence_number>704419</sequence_number>
+<si_modes>TE_006E6, NULL, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<star_field_constraints>
+   #ROLL, nominal, creep
+   81.00, -11.10, -10.10
+   82.00, -10.80, -10.10
+   83.00, -10.20, -10.10
+   84.00, -10.10, -10.10
+   85.00, -10.10, -10.10
+   86.00, -10.70, -10.70
+   87.00, -10.70, -10.70
+   88.00, -10.80, -10.80
+   89.00, -11.10, -11.10
+   90.00, -11.00, -10.10
+   91.00, -11.10, -10.70
+   92.00, -11.20, -10.70
+   93.00, -10.80, -10.10
+   94.00, -11.60, -10.80
+   95.00, -11.60, -10.80
+   96.00, -10.50, -9.90
+   97.00, -10.30, -9.90
+   98.00, -10.60, -10.10
+   99.00, -10.90, -10.70
+  100.00, -11.10, -10.80
+  101.00, -11.20, -10.80
+  102.00, -11.30, -10.70
+  103.00, -11.50, -10.70
+  104.00, -12.00, -10.80
+  105.00, -11.60, -10.80
+  106.00, -11.60, -10.70
+  107.00, -12.10, -10.80
+  108.00, -12.10, -10.70
+  109.00, -11.30, -10.70
+  110.00, -11.80, -10.80
+  111.00, -12.10, -10.80
+  112.00, -11.80, -10.80
+  113.00, -11.30, -10.80
+  114.00, -11.10, -11.20
+  115.00, -10.70, -11.50
+  116.00, -10.70, -10.70
+  117.00, -10.80, -10.70
+  118.00, -11.30, -10.80
+  119.00, -11.40, -11.10
+  120.00, -11.10, -11.10
+  121.00, -10.80, -10.80
+  122.00, -11.50, -11.50
+  123.00, -11.50, -11.50
+</star_field_constraints>
+END_COMMENT
+OBS,
+ ID=25728, TARGET=(10.381000,-49.603244,{QSO J0041-4936}),
+ DURATION=(44000.000000), PRIORITY=5, SI=ACIS-I, GRATING=NONE, SI_MODE=TE_006E6,
+ ACA_MODE=DEFAULT, TARGET_OFFSET=(-0.033333,0.033333),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000)
+
+
+BEGIN_COMMENT, ID=26714
+<cycle_number>24</cycle_number>
+<sequence_number>704635</sequence_number>
+<si_modes>TE_0065A, TE_00A5A, TE_0057A, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<star_field_constraints>
+   #ROLL, nominal, creep
+  226.00, -6.00, -6.00
+  227.00, -6.20, -6.20
+  228.00, -6.10, -6.10
+  229.00, -6.00, -6.00
+  230.00, -6.00, -6.00
+  231.00, -6.00, -6.00
+  232.00, -6.00, -6.00
+  233.00, -6.00, -6.00
+  234.00, -6.00, -6.00
+  235.00, -6.00, -6.00
+  236.00, -6.00, -6.00
+  237.00, -6.00, -6.00
+  238.00, -6.00, -6.00
+  239.00, -6.00, -6.00
+  240.00, -6.00, -6.00
+  241.00, -7.00, -7.00
+  242.00, -7.20, -7.20
+  243.00, -8.10, -8.10
+  244.00, -6.00, -6.00
+  245.00, -6.00, -6.00
+  246.00, -6.00, -6.00
+  247.00, -6.00, -6.00
+  248.00, -6.00, -6.00
+  249.00, -7.00, -7.00
+  250.00, -7.00, -7.00
+  251.00, -6.20, -6.20
+  252.00, -6.70, -6.70
+  253.00, -6.00, -6.00
+  254.00, -6.00, -6.00
+  255.00, -6.00, -6.00
+  256.00, -6.20, -6.20
+  257.00, -6.20, -6.20
+  258.00, -6.20, -6.20
+  259.00, -6.90, -6.90
+  260.00, -6.90, -6.90
+  261.00, -6.20, -6.20
+  262.00, -6.20, -6.20
+  263.00, -6.20, -6.20
+  264.00, -6.00, -6.00
+  265.00, -6.00, -6.00
+</star_field_constraints>
+<relative_mon_window>26713, 039:00:00:00.000, 055:00:00:00.000</relative_mon_window>
+<freeform_constraint>
+NOTE: The PRECEDING=(26713,039:00:00:00.000,055:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=26713
+in this OR list.
+MONITOR_COMMENT
+mp_get_agasc -p 07/07/2023 -r 204.779750 -d 13.177681 -w 0.001389
+NO AGASC OBJECT FOUND WITHIN 0.001389 OF MONITORING TARGET
+END_MONITOR_COMMENT
+Remarks:
+SDSS 1339+1310 is visible between January 1 and August 27, then after November
+25. The 4 epochs spaced at intervals of 47\pm8 days can be accomplished in the
+January 1 - August 27 window.
+</freeform_constraint>
+<split_duration>15.9</split_duration>
+END_COMMENT
+OBS,
+ ID=26714, TARGET=(204.779750,13.177681,{SDSS J1339+1310}),
+ DURATION=(33000.000000), PRIORITY=5, SI=ACIS-S,
+ STAR=(204.779750,13.177681,18.430000,MON), GRATING=NONE, SI_MODE=TE_0065A,
+ ACA_MODE=DEFAULT, TARGET_OFFSET=(-0.025000,0.000000), SIM_OFFSET=(0),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.004444,0.180000,0.000000)
+
+
+BEGIN_COMMENT, ID=26904
+<cycle_number>24</cycle_number>
+<sequence_number>704825</sequence_number>
+<si_modes>TE_00D50, NULL, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-111.0</acis_fp_limit>
+<star_field_constraints>
+   #ROLL, nominal, creep
+  173.00, -5.10, -5.10
+  174.00, -4.90, -4.70
+  175.00, -4.70, -4.50
+  176.00, -4.70, -4.50
+  177.00, -4.80, -4.10
+  178.00, -5.10, -4.70
+  179.00, -5.20, -4.70
+  180.00, -5.40, -4.90
+  181.00, -5.70, -5.00
+  182.00, -5.90, -5.10
+  183.00, -5.50, -5.00
+  184.00, -5.70, -4.70
+  185.00, -5.70, -4.70
+  186.00, -6.00, -4.80
+  187.00, -5.70, -4.70
+  188.00, -5.80, -4.70
+  189.00, -5.50, -4.70
+  190.00, -5.90, -5.90
+  191.00, -5.90, -5.90
+  192.00, -5.90, -5.90
+  193.00, -6.00, -6.00
+  194.00, -6.20, -6.20
+  195.00, -6.20, -6.20
+  196.00, -6.20, -6.20
+  197.00, -6.20, -6.20
+  198.00, -5.70, -5.70
+  199.00, -5.60, -5.40
+  200.00, -5.80, -4.70
+  201.00, -5.90, -4.70
+  202.00, -5.50, -4.70
+  203.00, -5.90, -5.90
+  204.00, -6.20, -6.20
+  205.00, -6.10, -6.10
+  206.00, -5.90, -5.90
+  207.00, -5.90, -5.90
+  208.00, -5.90, -5.90
+  209.00, -5.90, -5.90
+  210.00, -5.90, -5.90
+  211.00, -5.90, -5.90
+  212.00, -5.90, -5.90
+  213.00, -6.20, -6.20
+  214.00, -5.20, -4.40
+  215.00, -5.20, -4.40
+  216.00, -5.20, -4.40
+  217.00, -5.80, -4.40
+</star_field_constraints>
+<roll>
+ # min, max
+ 102, 222
+ 282,  42
+</roll>
+<freeform_constraint>
+Roll requirements exist for observation.
+  ROLL=(162.000000,60.000000)  ROLL=(342.000000,60.000000)
+</freeform_constraint>
+END_COMMENT
+OBS,
+ ID=26904, TARGET=(268.592708,67.626278,{7C 1754+6737}),
+ DURATION=(20000.000000), PRIORITY=5, SI=ACIS-S, GRATING=NONE, SI_MODE=TE_00D50,
+ ACA_MODE=DEFAULT, ROLL=(162.000000,60.000000),
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.002222,0.360000,0.000000)
+
+
+BEGIN_COMMENT, ID=27013
+<cycle_number>24</cycle_number>
+<sequence_number>790381</sequence_number>
+<si_modes>TE_00920, TE_0099C, TE_00B92, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-109.0</acis_fp_limit>
+<star_field_constraints>
+   #ROLL, nominal, creep
+  234.00, -6.20, -6.20
+  235.00, -6.20, -6.20
+  236.00, -6.10, -6.10
+  237.00, -6.00, -6.00
+  238.00, -6.00, -6.00
+  239.00, -6.40, -6.40
+  240.00, -6.40, -6.40
+  241.00, -6.20, -6.20
+  242.00, -6.20, -6.20
+  243.00, -6.20, -6.20
+  244.00, -6.20, -6.20
+  245.00, -6.30, -6.30
+  246.00, -6.30, -6.30
+  247.00, -6.20, -6.00
+  248.00, -6.00, -6.00
+  249.00, -6.00, -6.00
+  250.00, -6.20, -6.20
+  251.00, -6.20, -6.20
+  252.00, -6.20, -6.20
+  253.00, -6.00, -6.00
+  254.00, -6.20, -6.20
+  255.00, -6.20, -6.20
+  256.00, -6.20, -6.20
+  257.00, -6.00, -6.00
+  258.00, -6.20, -6.20
+  259.00, -6.00, -6.00
+  260.00, -6.00, -6.00
+  261.00, -5.60, -5.40
+</star_field_constraints>
+<uninterrupted>Y</uninterrupted>
+<freeform_constraint>
+Window Constraint requirements exist for observation.
+  WINDOW=(2023:152:00:00:00,2023:212:00:00:00)
+</freeform_constraint>
+<coordination_window>NO COORDINATION WINDOW FOUND!!</coordination_window>
+END_COMMENT
+OBS,
+ ID=27013, TARGET=(187.277917,2.052389,{3C273}), DURATION=(30000.000000),
+ PRIORITY=5, SI=ACIS-S, GRATING=HETG, SI_MODE=TE_00920, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,-0.005000), SIM_OFFSET=(-1193),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.004444,0.180000,0.000000),
+ WINDOW=(2023:152:00:00:00,2023:212:00:00:00), SEGMENT=(1,30000.000000)
+
+
+BEGIN_COMMENT,ID=49999
+Priority 6 targets.
+Unconstrained targets from the LTS.
+
+END_COMMENT
+
+
+BEGIN_COMMENT, ID=26499
+<cycle_number>24</cycle_number>
+<sequence_number>201561</sequence_number>
+<si_modes>TE_006E6, NULL, NULL, NULL, NULL, NULL</si_modes>
+<acis_fp_limit>-112.0</acis_fp_limit>
+<slosh>180</slosh>
+END_COMMENT
+OBS,
+ ID=26499, TARGET=(253.878000,-39.474000,{NGC 6242}), DURATION=(40000.000000),
+ PRIORITY=6, SI=ACIS-I, GRATING=NONE, SI_MODE=TE_006E6, ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.004444,0.254600,0.000000,0.004444,0.180000,0.000000)
+
+
+BEGIN_COMMENT,ID=49999
+MPCAT File: /data/mpcrit1/mplogs/2022/OCT2422/scheduled/oct2422.mpc
+END_COMMENT
+
